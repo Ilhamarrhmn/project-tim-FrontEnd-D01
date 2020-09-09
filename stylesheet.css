@@ -151,13 +151,7 @@ body {
     overflow: hidden;
 }
 
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    overflow: hidden;
-    justify-items: center;
-    gap: 20px;
-}
+
 
 .btn {
     padding: 12px 24px;
