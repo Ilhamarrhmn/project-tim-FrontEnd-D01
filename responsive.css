@@ -1,18 +1,19 @@
 /* Tablet */
 @media all and (max-width: 1000px) {
-	
 
 
-	/* FOOTER RESPONSIVE */
-	.lower-right {
-		display: none;
-	}
+
+
+    /* FOOTER RESPONSIVE */
+    .lower-right {
+        display: none;
+    }
 }
 
 /* Handphone */
 @media all and (max-width: 670px) {
 
-	/* btn */
+    /* btn */
     .slide .btn {
         font-size: 20px;
         width: 150px;
@@ -46,11 +47,20 @@
 
     /* FOOTER RESPONSIVE */
 
-	.lower-right {
-		display: none;
-	}
+    .lower-right {
+        display: none;
+    }
 
-	.lower-left {
-		font-size: 80%;
-	}
+    .lower-left {
+        font-size: 80%;
+    }
+}
+
+/* LIST-PRODUCT RESPONSIVE */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    overflow: hidden;
+    justify-items: center;
+    gap: 20px;
 }
