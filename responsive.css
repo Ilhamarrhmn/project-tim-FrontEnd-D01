@@ -57,10 +57,10 @@
 }
 
 /* LIST-PRODUCT RESPONSIVE */
-.products {
+/* .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     overflow: hidden;
     justify-items: center;
     gap: 20px;
-}
+} */
