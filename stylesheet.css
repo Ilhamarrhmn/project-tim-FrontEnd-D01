@@ -9,7 +9,64 @@ li, a {
 
 body {
 	margin: 0;
-	font-family: Raleway;
+	font-family: system-ui;
+}
+
+.header-top {
+	height: 90px;
+	border-bottom: 1px solid #dee7ee;
+}
+
+.header-logo {
+	float: left;
+	font-size: 36px;
+	padding: 20px 100px;
+}
+
+.search-bar{
+    display: flex;
+    float: right;
+    margin: 25px 100px;
+}
+
+.search{
+    border: none;
+    background-color: #fff;
+    border: 1px solid #dee7ec;
+    padding: 10px;
+ }
+
+.btn-search{
+    border: none;
+    padding: 0 20px;
+    background-color: #2f3640;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-search:hover , .header-list a:hover{
+	transform: scale(1.2);
+	font-weight: bold;
+}
+
+.header-logo span {
+  	color: #ff4a4a;
+}
+
+.header-bottom {
+	height: 70px;
+	width: 100%;
+}
+
+.header-list {
+	margin-left: 200px;
+}
+
+.header-list a {
+	float: left;
+	margin: 15px 35px;
+	font-size: 18px;
+	color: black;
 }
 
 /* container-banner */
@@ -26,10 +83,9 @@ body {
 .slide h1 {
     font-size: 40px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    opacity: 0.7;
 }
 
-.slide h2:hover, .slide h1:hover, .slide p:hover {
+.slide p:hover {
     opacity: 1;
 }
 
@@ -53,12 +109,12 @@ body {
 /* btn */
 .slide .btn {
     background-color: black;
-    padding: 10px;
+    padding: 15px;
     width: 200px;
     text-decoration: none;
     transition: 0.5s;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .slide .btn:hover {
@@ -137,7 +193,7 @@ body {
 }
 
 .main {
-    height: 680px;
+    height: 1750px;
 }
 .clear {
   	clear: left;
@@ -181,6 +237,11 @@ body {
 	padding-top: 80px;
 	padding-bottom: 50px;
 	color: #000000;
+}
+
+.heading b {
+	font-size: 30px;
+	font-weight: bold;
 }
 
 .heading h2 {
@@ -255,7 +316,7 @@ body {
 
 .text {
 	text-align: center;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	margin: 10px 500px;
 }
