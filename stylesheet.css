@@ -67,6 +67,10 @@ body {
 	margin: 15px 35px;
 	font-size: 18px;
 	color: black;
+    margin: 0;
+    font-family: Raleway;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* container-banner */
@@ -85,6 +89,8 @@ body {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+.slide h2:hover,
+.slide h1:hover,
 .slide p:hover {
     opacity: 1;
 }
@@ -198,6 +204,11 @@ body {
 }
 .clear {
   	clear: left;
+    height: 1750px;
+}
+.clear {
+  	clear: left;
+    overflow: hidden;
 }
 
 .container {
@@ -238,6 +249,11 @@ body {
 	padding-top: 80px;
 	padding-bottom: 50px;
 	color: #000000;
+}
+
+.heading b {
+	font-size: 30px;
+	font-weight: bold;
 }
 
 .heading b {
@@ -320,6 +336,7 @@ body {
 	font-size: 30px;
 	font-weight: bold;
 	margin: 10px 500px;
+
 }
 
 .nama, .email {
