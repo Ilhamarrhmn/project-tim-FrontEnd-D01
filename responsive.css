@@ -1,13 +1,72 @@
 /* Tablet */
 @media all and (max-width: 1000px) {
+    /* HEADER */
+	.header-logo {
+		padding: 20px 310px;
+	}
 
+	.header-list {
+		margin-left: 0;
+	}
 
+	.header-list a {
+		font-size: 14px;
+		margin: 15px 18px;
+	}
 
+	.main {
+		height: 1500px;
+	}
 
-    /* FOOTER RESPONSIVE */
-    .lower-right {
-        display: none;
+	.container-banner {
+	    height: 400px;
+	}
+
+	.slider {
+	    height: 65%;
+	}
+
+	.slide .btn {
+        font-size: 18px;
     }
+
+    /* font */
+    .slide h1,
+    .slide h2 {
+        font-size: 25px;
+    }
+
+    .slide p {
+	    font-size: 15px;
+	}
+
+	.product .product-icon .box-img img {
+    	width: 50%;
+	}
+
+	.heading b {
+		font-size: 15px;
+	}
+
+	.text-contents {
+	  	font-size: 18px;
+	}
+
+	.btn {
+		padding: 10px 20px;
+	}
+
+	.text-contents {
+	  	font-size: 18px;
+	}
+
+	.form, .lower-right, .search-bar {
+		display: none;
+	}
+
+	.lower-footer {
+	    padding: 15px 200px;
+	}
 }
 
 /* Handphone */
