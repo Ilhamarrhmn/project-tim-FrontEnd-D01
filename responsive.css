@@ -16,7 +16,7 @@
     }
 
     .main {
-        height: 1500px;
+        height: 1200px;
     }
 
     .container-banner {
@@ -27,7 +27,7 @@
         height: 65%;
     }
 
-    .slide .btn {
+    .slide {
         font-size: 18px;
     }
 
@@ -54,11 +54,7 @@
     }
 
     .btn {
-        padding: 10px 20px;
-    }
-
-    .text-contents {
-        font-size: 18px;
+        padding: 10px 15px;
     }
 
     /* .form, */
@@ -68,55 +64,62 @@
     }
 
     .lower-footer {
-        padding: 15px 200px;
+        padding: 15px 210px;
     }
 
     /* font-form */
     .nama,
     .email,
     .pesan,
-    .form h2,
     .kirim {
         width: 350px;
         font-size: 17px;
+        margin: 10px 210px;
     }
+
+    .text {
+		font-size: 30px;
+		margin: 10px 220px;
+	}
 
 }
 
 /* Handphone */
 @media all and (max-width: 670px) {
 
-    /* btn */
-    .slide .btn {
-        font-size: 20px;
-        width: 150px;
-    }
+	.header-bottom {
+		height: 110px;
+		width: 100%;
+	}
+
+	.header-logo {
+		font-size: 25px;
+		padding: 25px 170px;
+		width: 100%
+	}
 
     /* font */
     .slide h1,
     .slide h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .slide p {
-        font-size: 15px;
+        font-size: 12px;
     }
 
-    /* slide */
-    .slide {
-        padding: 80px 0;
-    }
-
-    /* slider */
     .slider {
-        display: block;
-        width: 100%;
-        /* background-color: #1f1f1f; */
-        overflow: hidden;
-        position: absolute;
-        height: 65%;
+        height: 50%;
     }
 
+    .slide {
+        font-size: 18px;
+        padding: 100px 0;
+    }
+
+    .btn-pesan {
+    	display: none;
+    }
 
     /* FOOTER RESPONSIVE */
 
@@ -128,15 +131,20 @@
         font-size: 80%;
     }
 
-    /* font form */
+    /* font-form */
     .nama,
     .email,
     .pesan,
-    .kirim,
-    .form h2 {
-        width: 350px;
-        font-size: 15px;
+    .kirim {
+        width: 250px;
+        font-size: 17px;
+        margin: 10px 50px;
     }
+
+    .text {
+		font-size: 18px;
+		margin: 10px 130px;
+	}
 
 }
 
