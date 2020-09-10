@@ -1,32 +1,33 @@
 /* Tablet */
 @media all and (max-width: 1000px) {
+
     /* HEADER */
-	.header-logo {
-		padding: 20px 310px;
-	}
+    .header-logo {
+        padding: 20px 310px;
+    }
 
-	.header-list {
-		margin-left: 0;
-	}
+    .header-list {
+        margin-left: 0;
+    }
 
-	.header-list a {
-		font-size: 14px;
-		margin: 15px 18px;
-	}
+    .header-list a {
+        font-size: 14px;
+        margin: 15px 18px;
+    }
 
-	.main {
-		height: 1500px;
-	}
+    .main {
+        height: 1500px;
+    }
 
-	.container-banner {
-	    height: 400px;
-	}
+    .container-banner {
+        height: 400px;
+    }
 
-	.slider {
-	    height: 65%;
-	}
+    .slider {
+        height: 65%;
+    }
 
-	.slide .btn {
+    .slide .btn {
         font-size: 18px;
     }
 
@@ -37,36 +38,49 @@
     }
 
     .slide p {
-	    font-size: 15px;
-	}
+        font-size: 15px;
+    }
 
-	.product .product-icon .box-img img {
-    	width: 50%;
-	}
+    .product .product-icon .box-img img {
+        width: 50%;
+    }
 
-	.heading b {
-		font-size: 15px;
-	}
+    .heading b {
+        font-size: 15px;
+    }
 
-	.text-contents {
-	  	font-size: 18px;
-	}
+    .text-contents {
+        font-size: 18px;
+    }
 
-	.btn {
-		padding: 10px 20px;
-	}
+    .btn {
+        padding: 10px 20px;
+    }
 
-	.text-contents {
-	  	font-size: 18px;
-	}
+    .text-contents {
+        font-size: 18px;
+    }
 
-	.form, .lower-right, .search-bar {
-		display: none;
-	}
+    /* .form, */
+    .lower-right,
+    .search-bar {
+        display: none;
+    }
 
-	.lower-footer {
-	    padding: 15px 200px;
-	}
+    .lower-footer {
+        padding: 15px 200px;
+    }
+
+    /* font-form */
+    .nama,
+    .email,
+    .pesan,
+    .form h2,
+    .kirim {
+        width: 350px;
+        font-size: 17px;
+    }
+
 }
 
 /* Handphone */
@@ -113,6 +127,17 @@
     .lower-left {
         font-size: 80%;
     }
+
+    /* font form */
+    .nama,
+    .email,
+    .pesan,
+    .kirim,
+    .form h2 {
+        width: 350px;
+        font-size: 15px;
+    }
+
 }
 
 /* LIST-PRODUCT RESPONSIVE */
